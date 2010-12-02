@@ -1,0 +1,417 @@
+TShareTheRoute
+v7
+r0
+t312960271.039069
+cCheck dependencies
+cProcessInfoPlistFile /Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/build/Debug-iphonesimulator/ShareTheRoute.app/Info.plist ShareTheRoute-Info.plist
+cCompileXIB /Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/iPhone/MainWindow_iPhone.xib
+cCompileXIB /Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/iPad/MainWindow_iPad.xib
+cCopyStringsFile /Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/build/Debug-iphonesimulator/ShareTheRoute.app/en.lproj/Localizable.strings en.lproj/Localizable.strings
+cCopyStringsFile /Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/build/Debug-iphonesimulator/ShareTheRoute.app/es.lproj/Localizable.strings es.lproj/Localizable.strings
+cCpResource build/Debug-iphonesimulator/ShareTheRoute.app/icon.png icon.png
+cDistributed-CompileC build/ShareTheRoute.build/Debug-iphonesimulator/ShareTheRoute.build/Objects-normal/i386/main.o /Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/Shared/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cDistributed-CompileC build/ShareTheRoute.build/Debug-iphonesimulator/ShareTheRoute.build/Objects-normal/i386/AppDelegate_iPhone.o /Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/iPhone/AppDelegate_iPhone.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cDistributed-CompileC build/ShareTheRoute.build/Debug-iphonesimulator/ShareTheRoute.build/Objects-normal/i386/AppDelegate_iPad.o /Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/iPad/AppDelegate_iPad.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cDistributed-CompileC build/ShareTheRoute.build/Debug-iphonesimulator/ShareTheRoute.build/Objects-normal/i386/LocationMonkey.o /Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/LocationMonkey.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cDistributed-CompileC build/ShareTheRoute.build/Debug-iphonesimulator/ShareTheRoute.build/Objects-normal/i386/UpdateLocation.o /Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/UpdateLocation.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cDistributed-CompileC build/ShareTheRoute.build/Debug-iphonesimulator/ShareTheRoute.build/Objects-normal/i386/MainViewController.o /Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/iPhone/MainViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/build/Debug-iphonesimulator/ShareTheRoute.app/ShareTheRoute normal i386
+cGenerateDSYMFile /Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/build/Debug-iphonesimulator/ShareTheRoute.app.dSYM /Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/build/Debug-iphonesimulator/ShareTheRoute.app/ShareTheRoute
+cTouch /Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/build/Debug-iphonesimulator/ShareTheRoute.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk
+c000000004C6C30170000000000000110
+t1282158615
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004C5A4DB60000000000295900
+t1280986550
+s2709760
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c000000004C6C2FF1000000000006B7E0
+t1282158577
+s440288
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.h
+c000000004C6C2FEA00000000000001D0
+t1282158570
+s464
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004C5A4DB0000000000029D580
+t1280986544
+s2741632
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004C5A4DA10000000000001466
+t1280986529
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/MessageUI.framework/Headers/MessageUI.h
+c000000004C5E1EEF00000000000000CD
+t1281236719
+s205
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/MessageUI.framework/MessageUI
+c000000004C5E1EFD0000000000091C50
+t1281236733
+s597072
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C6241ED00000000000009CD
+t1281507821
+s2509
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C6242840000000001E228C0
+t1281507972
+s31598784
+
+N/Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/LocationMonkey.h
+c000000004CE203B20000000000000295
+t1289880498
+s661
+i<Foundation/Foundation.h>
+i"UpdateLocation.h"
+
+N/Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/LocationMonkey.m
+c000000004CE2106C0000000000000A18
+t1289883756
+s2584
+i"LocationMonkey.h"
+
+N/Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/ShareTheRoute_Prefix.pch
+c000000004CE2013200000000000000C3
+t1289879858
+s195
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/Shared/main.m
+c000000004CE201320000000000000169
+t1289879858
+s361
+i<UIKit/UIKit.h>
+
+N/Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/UpdateLocation.h
+c000000004CCA690000000000000001BA
+t1288333568
+s442
+i<Foundation/Foundation.h>
+i<CoreLocation/CoreLocation.h>
+
+N/Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/UpdateLocation.m
+c000000004CD23A6300000000000004E3
+t1288845923
+s1251
+i"UpdateLocation.h"
+
+N/Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/build/Debug-iphonesimulator/ShareTheRoute.app
+t1291267471
+s340
+
+N/Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/build/Debug-iphonesimulator/ShareTheRoute.app.dSYM
+t1291267470
+s102
+
+N/Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/build/Debug-iphonesimulator/ShareTheRoute.app/Info.plist
+t1291267464
+s998
+
+N/Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/build/Debug-iphonesimulator/ShareTheRoute.app/MainWindow_iPad.nib
+t1291267466
+s1530
+
+N/Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/build/Debug-iphonesimulator/ShareTheRoute.app/MainWindow_iPhone.nib
+t1291267466
+s1531
+
+N/Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/build/Debug-iphonesimulator/ShareTheRoute.app/PkgInfo
+t1291267464
+s8
+
+N/Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/build/Debug-iphonesimulator/ShareTheRoute.app/ShareTheRoute
+t1291267470
+s33376
+
+N/Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/build/Debug-iphonesimulator/ShareTheRoute.app/en.lproj/Localizable.strings
+t1291267467
+s183
+
+N/Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/build/Debug-iphonesimulator/ShareTheRoute.app/es.lproj/Localizable.strings
+t1291267467
+s42
+
+N/Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/build/Debug-iphonesimulator/ShareTheRoute.app/icon.png
+t1291267467
+s3858
+
+N/Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/build/ShareTheRoute.build/Debug-iphonesimulator/ShareTheRoute.build/Objects-normal/i386/AppDelegate_iPad.o
+t1291267469
+s45356
+
+N/Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/build/ShareTheRoute.build/Debug-iphonesimulator/ShareTheRoute.build/Objects-normal/i386/AppDelegate_iPhone.o
+t1291267469
+s48296
+
+N/Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/build/ShareTheRoute.build/Debug-iphonesimulator/ShareTheRoute.build/Objects-normal/i386/LocationMonkey.o
+t1291267469
+s22032
+
+N/Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/build/ShareTheRoute.build/Debug-iphonesimulator/ShareTheRoute.build/Objects-normal/i386/MainViewController.o
+t1291267470
+s47780
+
+N/Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/build/ShareTheRoute.build/Debug-iphonesimulator/ShareTheRoute.build/Objects-normal/i386/ShareTheRoute.LinkFileList
+c000000004CF72D8800000000000003D8
+t1291267464
+s984
+
+N/Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/build/ShareTheRoute.build/Debug-iphonesimulator/ShareTheRoute.build/Objects-normal/i386/UpdateLocation.o
+t1291267470
+s13320
+
+N/Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/build/ShareTheRoute.build/Debug-iphonesimulator/ShareTheRoute.build/Objects-normal/i386/main.o
+t1291267469
+s6356
+
+N/Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/en.lproj/Localizable.strings
+c000000004CE2159C0000000000000119
+t1289885084
+s281
+
+N/Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/es.lproj/Localizable.strings
+c000000004CE20DCB000000000000008C
+t1289883083
+s140
+
+N/Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/iPad/AppDelegate_iPad.h
+c000000004CE201320000000000000143
+t1289879858
+s323
+i<UIKit/UIKit.h>
+
+N/Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/iPad/AppDelegate_iPad.m
+c000000004CE2013200000000000006A4
+t1289879858
+s1700
+i"AppDelegate_iPad.h"
+
+N/Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/iPad/MainWindow_iPad.xib
+c000000004CE2013200000000000036E1
+t1289879858
+s14049
+
+N/Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/iPhone/AppDelegate_iPhone.h
+c000000004CE202F50000000000000185
+t1289880309
+s389
+i<UIKit/UIKit.h>
+i"MainViewController.h"
+
+N/Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/iPhone/AppDelegate_iPhone.m
+c000000004CE22A4B0000000000000A2B
+t1289890379
+s2603
+i"AppDelegate_iPhone.h"
+
+N/Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/iPhone/MainViewController.h
+c000000004CE229FF0000000000000175
+t1289890303
+s373
+i<UIKit/UIKit.h>
+i"LocationMonkey.h"
+i<MessageUI/MessageUI.h>
+
+N/Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/iPhone/MainViewController.m
+c000000004CE22A8A0000000000000BFA
+t1289890442
+s3066
+i"MainViewController.h"
+
+N/Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/iPhone/MainWindow_iPhone.xib
+c000000004CE201320000000000003910
+t1289879858
+s14608
+
+N/Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/icon.png
+c000000004CF722720000000000000F12
+t1291264626
+s3858
+
+NShareTheRoute-Info.plist
+c000000004CF72D7B00000000000005BA
+t1291267451
+s1466
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies312960264#312960264#0(0"0(0#1#0"8722310336#0"0#
+
+CCompileXIB /Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/iPad/MainWindow_iPad.xib
+s312960264.480821
+e312960266.609947
+r1
+xCompileXIB
+x/Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/iPad/MainWindow_iPad.xib
+lSLF07#2@35"CompileXIB iPad/MainWindow_iPad.xib312960264#312960266#0(0"0(0#0#83"/Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/iPad/MainWindow_iPad.xib8719079904#651"    cd /Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/build/Debug-iphonesimulator/ShareTheRoute.app/MainWindow_iPad.nib /Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/iPad/MainWindow_iPad.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
+
+CCompileXIB /Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/iPhone/MainWindow_iPhone.xib
+s312960264.480052
+e312960266.588225
+r1
+xCompileXIB
+x/Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/iPhone/MainWindow_iPhone.xib
+lSLF07#2@39"CompileXIB iPhone/MainWindow_iPhone.xib312960264#312960266#0(0"0(0#0#87"/Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/iPhone/MainWindow_iPhone.xib8723227744#657"    cd /Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/build/Debug-iphonesimulator/ShareTheRoute.app/MainWindow_iPhone.nib /Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/iPhone/MainWindow_iPhone.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
+
+CCopyStringsFile /Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/build/Debug-iphonesimulator/ShareTheRoute.app/en.lproj/Localizable.strings en.lproj/Localizable.strings
+s312960266.588588
+e312960267.168867
+r1
+xCopyStringsFile
+x/Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/build/Debug-iphonesimulator/ShareTheRoute.app/en.lproj/Localizable.strings
+xen.lproj/Localizable.strings
+lSLF07#2@33"Copy en.lproj/Localizable.strings312960266#312960267#0(0"0(0#0#87"/Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/en.lproj/Localizable.strings8724008512#531"    cd /Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute    setenv ICONV /usr/bin/iconv    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding binary en.lproj/Localizable.strings --outdir /Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/build/Debug-iphonesimulator/ShareTheRoute.app/en.lproj0#
+
+CCopyStringsFile /Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/build/Debug-iphonesimulator/ShareTheRoute.app/es.lproj/Localizable.strings es.lproj/Localizable.strings
+s312960266.610043
+e312960267.169138
+r1
+xCopyStringsFile
+x/Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/build/Debug-iphonesimulator/ShareTheRoute.app/es.lproj/Localizable.strings
+xes.lproj/Localizable.strings
+lSLF07#2@33"Copy es.lproj/Localizable.strings312960266#312960267#0(0"0(0#0#87"/Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/es.lproj/Localizable.strings8722309952#531"    cd /Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute    setenv ICONV /usr/bin/iconv    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding binary es.lproj/Localizable.strings --outdir /Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/build/Debug-iphonesimulator/ShareTheRoute.app/es.lproj0#
+
+CCpResource build/Debug-iphonesimulator/ShareTheRoute.app/icon.png icon.png
+s312960267.169244
+e312960267.196442
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/ShareTheRoute.app/icon.png
+xicon.png
+lSLF07#2@13"Copy icon.png312960267#312960267#0(0"0(0#0#67"/Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/icon.png8696716288#532"    cd /Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/icon.png /Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/build/Debug-iphonesimulator/ShareTheRoute.app0#
+
+CDistributed-CompileC build/ShareTheRoute.build/Debug-iphonesimulator/ShareTheRoute.build/Objects-normal/i386/AppDelegate_iPad.o /Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/iPad/AppDelegate_iPad.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s312960269.540810
+e312960269.898340
+r1
+xDistributed-CompileC
+xbuild/ShareTheRoute.build/Debug-iphonesimulator/ShareTheRoute.build/Objects-normal/i386/AppDelegate_iPad.o
+x/Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/iPad/AppDelegate_iPad.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+odistcc[20793] (dcc_build_somewhere) Warning: failed to distribute, running locally instead
+lSLF07#2@108"Distribute compilation of /Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/iPad/AppDelegate_iPad.m312960269#312960269#0(91"distcc[20793] (dcc_build_somewhere) Warning: failed to distribute, running locally instead0(0#0#82"/Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/iPad/AppDelegate_iPad.m8717724320#2400"    cd /Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute    setenv DISTCC_COMPILER "gcc version 4.2.1 (Apple Inc. build 5664)"    setenv DISTCC_HOSTS "localhost:3632/2"    setenv DISTCC_SYSTEM "10.6.5 (10H574, i386)"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/distcc /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/build/ShareTheRoute.build/Debug-iphonesimulator/ShareTheRoute.build/ShareTheRoute-generated-files.hmap -I/Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/build/ShareTheRoute.build/Debug-iphonesimulator/ShareTheRoute.build/ShareTheRoute-own-target-headers.hmap -I/Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/build/ShareTheRoute.build/Debug-iphonesimulator/ShareTheRoute.build/ShareTheRoute-all-target-headers.hmap -iquote /Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/build/ShareTheRoute.build/Debug-iphonesimulator/ShareTheRoute.build/ShareTheRoute-project-headers.hmap -fpch-preprocess -F/Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/build/Debug-iphonesimulator -I/Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/build/Debug-iphonesimulator/include -I/Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/build/ShareTheRoute.build/Debug-iphonesimulator/ShareTheRoute.build/DerivedSources/i386 -I/Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/build/ShareTheRoute.build/Debug-iphonesimulator/ShareTheRoute.build/DerivedSources -include /Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/ShareTheRoute_Prefix.pch -c /Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/iPad/AppDelegate_iPad.m -o /Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/build/ShareTheRoute.build/Debug-iphonesimulator/ShareTheRoute.build/Objects-normal/i386/AppDelegate_iPad.o0#
+
+CDistributed-CompileC build/ShareTheRoute.build/Debug-iphonesimulator/ShareTheRoute.build/Objects-normal/i386/AppDelegate_iPhone.o /Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/iPhone/AppDelegate_iPhone.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s312960267.197886
+e312960269.540624
+r1
+xDistributed-CompileC
+xbuild/ShareTheRoute.build/Debug-iphonesimulator/ShareTheRoute.build/Objects-normal/i386/AppDelegate_iPhone.o
+x/Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/iPhone/AppDelegate_iPhone.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+odistcc[20775] ERROR: nonblocking connect to 127.0.0.1:3632 failed: Connection refused
+odistcc[20775] Warning: failed to distribute /Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/iPhone/AppDelegate_iPhone.m to localhost:3632/2, running locally instead
+lSLF07#2@112"Distribute compilation of /Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/iPhone/AppDelegate_iPhone.m312960267#312960269#0(262"distcc[20775] ERROR: nonblocking connect to 127.0.0.1:3632 failed: Connection refuseddistcc[20775] Warning: failed to distribute /Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/iPhone/AppDelegate_iPhone.m to localhost:3632/2, running locally instead0(0#0#86"/Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/iPhone/AppDelegate_iPhone.m8723857344#2406"    cd /Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute    setenv DISTCC_COMPILER "gcc version 4.2.1 (Apple Inc. build 5664)"    setenv DISTCC_HOSTS "localhost:3632/2"    setenv DISTCC_SYSTEM "10.6.5 (10H574, i386)"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/distcc /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/build/ShareTheRoute.build/Debug-iphonesimulator/ShareTheRoute.build/ShareTheRoute-generated-files.hmap -I/Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/build/ShareTheRoute.build/Debug-iphonesimulator/ShareTheRoute.build/ShareTheRoute-own-target-headers.hmap -I/Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/build/ShareTheRoute.build/Debug-iphonesimulator/ShareTheRoute.build/ShareTheRoute-all-target-headers.hmap -iquote /Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/build/ShareTheRoute.build/Debug-iphonesimulator/ShareTheRoute.build/ShareTheRoute-project-headers.hmap -fpch-preprocess -F/Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/build/Debug-iphonesimulator -I/Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/build/Debug-iphonesimulator/include -I/Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/build/ShareTheRoute.build/Debug-iphonesimulator/ShareTheRoute.build/DerivedSources/i386 -I/Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/build/ShareTheRoute.build/Debug-iphonesimulator/ShareTheRoute.build/DerivedSources -include /Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/ShareTheRoute_Prefix.pch -c /Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/iPhone/AppDelegate_iPhone.m -o /Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/build/ShareTheRoute.build/Debug-iphonesimulator/ShareTheRoute.build/Objects-normal/i386/AppDelegate_iPhone.o0#
+
+CDistributed-CompileC build/ShareTheRoute.build/Debug-iphonesimulator/ShareTheRoute.build/Objects-normal/i386/LocationMonkey.o /Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/LocationMonkey.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s312960269.543543
+e312960269.930752
+r1
+xDistributed-CompileC
+xbuild/ShareTheRoute.build/Debug-iphonesimulator/ShareTheRoute.build/Objects-normal/i386/LocationMonkey.o
+x/Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/LocationMonkey.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+odistcc[20794] (dcc_build_somewhere) Warning: failed to distribute, running locally instead
+lSLF07#2@101"Distribute compilation of /Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/LocationMonkey.m312960269#312960269#0(91"distcc[20794] (dcc_build_somewhere) Warning: failed to distribute, running locally instead0(0#0#75"/Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/LocationMonkey.m8696068832#2391"    cd /Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute    setenv DISTCC_COMPILER "gcc version 4.2.1 (Apple Inc. build 5664)"    setenv DISTCC_HOSTS "localhost:3632/2"    setenv DISTCC_SYSTEM "10.6.5 (10H574, i386)"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/distcc /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/build/ShareTheRoute.build/Debug-iphonesimulator/ShareTheRoute.build/ShareTheRoute-generated-files.hmap -I/Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/build/ShareTheRoute.build/Debug-iphonesimulator/ShareTheRoute.build/ShareTheRoute-own-target-headers.hmap -I/Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/build/ShareTheRoute.build/Debug-iphonesimulator/ShareTheRoute.build/ShareTheRoute-all-target-headers.hmap -iquote /Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/build/ShareTheRoute.build/Debug-iphonesimulator/ShareTheRoute.build/ShareTheRoute-project-headers.hmap -fpch-preprocess -F/Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/build/Debug-iphonesimulator -I/Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/build/Debug-iphonesimulator/include -I/Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/build/ShareTheRoute.build/Debug-iphonesimulator/ShareTheRoute.build/DerivedSources/i386 -I/Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/build/ShareTheRoute.build/Debug-iphonesimulator/ShareTheRoute.build/DerivedSources -include /Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/ShareTheRoute_Prefix.pch -c /Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/LocationMonkey.m -o /Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/build/ShareTheRoute.build/Debug-iphonesimulator/ShareTheRoute.build/Objects-normal/i386/LocationMonkey.o0#
+
+CDistributed-CompileC build/ShareTheRoute.build/Debug-iphonesimulator/ShareTheRoute.build/Objects-normal/i386/MainViewController.o /Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/iPhone/MainViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s312960269.930871
+e312960270.165400
+r1
+xDistributed-CompileC
+xbuild/ShareTheRoute.build/Debug-iphonesimulator/ShareTheRoute.build/Objects-normal/i386/MainViewController.o
+x/Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/iPhone/MainViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+odistcc[20811] (dcc_build_somewhere) Warning: failed to distribute, running locally instead
+lSLF07#2@112"Distribute compilation of /Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/iPhone/MainViewController.m312960269#312960270#0(91"distcc[20811] (dcc_build_somewhere) Warning: failed to distribute, running locally instead0(0#0#86"/Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/iPhone/MainViewController.m8599862976#2406"    cd /Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute    setenv DISTCC_COMPILER "gcc version 4.2.1 (Apple Inc. build 5664)"    setenv DISTCC_HOSTS "localhost:3632/2"    setenv DISTCC_SYSTEM "10.6.5 (10H574, i386)"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/distcc /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/build/ShareTheRoute.build/Debug-iphonesimulator/ShareTheRoute.build/ShareTheRoute-generated-files.hmap -I/Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/build/ShareTheRoute.build/Debug-iphonesimulator/ShareTheRoute.build/ShareTheRoute-own-target-headers.hmap -I/Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/build/ShareTheRoute.build/Debug-iphonesimulator/ShareTheRoute.build/ShareTheRoute-all-target-headers.hmap -iquote /Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/build/ShareTheRoute.build/Debug-iphonesimulator/ShareTheRoute.build/ShareTheRoute-project-headers.hmap -fpch-preprocess -F/Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/build/Debug-iphonesimulator -I/Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/build/Debug-iphonesimulator/include -I/Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/build/ShareTheRoute.build/Debug-iphonesimulator/ShareTheRoute.build/DerivedSources/i386 -I/Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/build/ShareTheRoute.build/Debug-iphonesimulator/ShareTheRoute.build/DerivedSources -include /Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/ShareTheRoute_Prefix.pch -c /Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/iPhone/MainViewController.m -o /Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/build/ShareTheRoute.build/Debug-iphonesimulator/ShareTheRoute.build/Objects-normal/i386/MainViewController.o0#
+
+CDistributed-CompileC build/ShareTheRoute.build/Debug-iphonesimulator/ShareTheRoute.build/Objects-normal/i386/UpdateLocation.o /Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/UpdateLocation.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s312960269.898446
+e312960270.124608
+r1
+xDistributed-CompileC
+xbuild/ShareTheRoute.build/Debug-iphonesimulator/ShareTheRoute.build/Objects-normal/i386/UpdateLocation.o
+x/Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/UpdateLocation.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+odistcc[20805] (dcc_build_somewhere) Warning: failed to distribute, running locally instead
+lSLF07#2@101"Distribute compilation of /Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/UpdateLocation.m312960269#312960270#0(91"distcc[20805] (dcc_build_somewhere) Warning: failed to distribute, running locally instead0(0#0#75"/Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/UpdateLocation.m8669766976#2391"    cd /Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute    setenv DISTCC_COMPILER "gcc version 4.2.1 (Apple Inc. build 5664)"    setenv DISTCC_HOSTS "localhost:3632/2"    setenv DISTCC_SYSTEM "10.6.5 (10H574, i386)"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/distcc /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/build/ShareTheRoute.build/Debug-iphonesimulator/ShareTheRoute.build/ShareTheRoute-generated-files.hmap -I/Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/build/ShareTheRoute.build/Debug-iphonesimulator/ShareTheRoute.build/ShareTheRoute-own-target-headers.hmap -I/Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/build/ShareTheRoute.build/Debug-iphonesimulator/ShareTheRoute.build/ShareTheRoute-all-target-headers.hmap -iquote /Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/build/ShareTheRoute.build/Debug-iphonesimulator/ShareTheRoute.build/ShareTheRoute-project-headers.hmap -fpch-preprocess -F/Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/build/Debug-iphonesimulator -I/Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/build/Debug-iphonesimulator/include -I/Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/build/ShareTheRoute.build/Debug-iphonesimulator/ShareTheRoute.build/DerivedSources/i386 -I/Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/build/ShareTheRoute.build/Debug-iphonesimulator/ShareTheRoute.build/DerivedSources -include /Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/ShareTheRoute_Prefix.pch -c /Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/UpdateLocation.m -o /Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/build/ShareTheRoute.build/Debug-iphonesimulator/ShareTheRoute.build/Objects-normal/i386/UpdateLocation.o0#
+
+CDistributed-CompileC build/ShareTheRoute.build/Debug-iphonesimulator/ShareTheRoute.build/Objects-normal/i386/main.o /Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/Shared/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s312960267.196558
+e312960269.543457
+r1
+xDistributed-CompileC
+xbuild/ShareTheRoute.build/Debug-iphonesimulator/ShareTheRoute.build/Objects-normal/i386/main.o
+x/Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/Shared/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+odistcc[20774] ERROR: nonblocking connect to 127.0.0.1:3632 failed: Connection refused
+odistcc[20774] Warning: failed to distribute /Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/Shared/main.m to localhost:3632/2, running locally instead
+lSLF07#2@98"Distribute compilation of /Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/Shared/main.m312960267#312960269#0(248"distcc[20774] ERROR: nonblocking connect to 127.0.0.1:3632 failed: Connection refuseddistcc[20774] Warning: failed to distribute /Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/Shared/main.m to localhost:3632/2, running locally instead0(0#0#72"/Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/Shared/main.m8681967200#2378"    cd /Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute    setenv DISTCC_COMPILER "gcc version 4.2.1 (Apple Inc. build 5664)"    setenv DISTCC_HOSTS "localhost:3632/2"    setenv DISTCC_SYSTEM "10.6.5 (10H574, i386)"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/distcc /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/build/ShareTheRoute.build/Debug-iphonesimulator/ShareTheRoute.build/ShareTheRoute-generated-files.hmap -I/Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/build/ShareTheRoute.build/Debug-iphonesimulator/ShareTheRoute.build/ShareTheRoute-own-target-headers.hmap -I/Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/build/ShareTheRoute.build/Debug-iphonesimulator/ShareTheRoute.build/ShareTheRoute-all-target-headers.hmap -iquote /Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/build/ShareTheRoute.build/Debug-iphonesimulator/ShareTheRoute.build/ShareTheRoute-project-headers.hmap -fpch-preprocess -F/Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/build/Debug-iphonesimulator -I/Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/build/Debug-iphonesimulator/include -I/Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/build/ShareTheRoute.build/Debug-iphonesimulator/ShareTheRoute.build/DerivedSources/i386 -I/Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/build/ShareTheRoute.build/Debug-iphonesimulator/ShareTheRoute.build/DerivedSources -include /Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/ShareTheRoute_Prefix.pch -c /Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/Shared/main.m -o /Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/build/ShareTheRoute.build/Debug-iphonesimulator/ShareTheRoute.build/Objects-normal/i386/main.o0#
+
+CGenerateDSYMFile /Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/build/Debug-iphonesimulator/ShareTheRoute.app.dSYM /Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/build/Debug-iphonesimulator/ShareTheRoute.app/ShareTheRoute
+s312960270.949906
+e312960271.025016
+r1
+xGenerateDSYMFile
+x/Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/build/Debug-iphonesimulator/ShareTheRoute.app.dSYM
+x/Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/build/Debug-iphonesimulator/ShareTheRoute.app/ShareTheRoute
+lSLF07#2@127"GenerateDSYMFile build/Debug-iphonesimulator/ShareTheRoute.app.dSYM build/Debug-iphonesimulator/ShareTheRoute.app/ShareTheRoute312960270#312960271#0(0"0(0#0#118"/Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/build/Debug-iphonesimulator/ShareTheRoute.app/ShareTheRoute8706684288#461"    cd /Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/build/Debug-iphonesimulator/ShareTheRoute.app/ShareTheRoute -o /Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/build/Debug-iphonesimulator/ShareTheRoute.app.dSYM0#
+
+CLd /Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/build/Debug-iphonesimulator/ShareTheRoute.app/ShareTheRoute normal i386
+s312960270.165501
+e312960270.949797
+r1
+xLd
+x/Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/build/Debug-iphonesimulator/ShareTheRoute.app/ShareTheRoute
+xnormal
+xi386
+lSLF07#2@123"Link /Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/build/Debug-iphonesimulator/ShareTheRoute.app/ShareTheRoute312960270#312960270#0(0"0(0#0#0"8698688608#1075"    cd /Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -L/Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/build/Debug-iphonesimulator -F/Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/build/Debug-iphonesimulator -filelist /Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/build/ShareTheRoute.build/Debug-iphonesimulator/ShareTheRoute.build/Objects-normal/i386/ShareTheRoute.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework MessageUI -framework CoreLocation -o /Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/build/Debug-iphonesimulator/ShareTheRoute.app/ShareTheRoute0#
+
+CProcessInfoPlistFile /Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/build/Debug-iphonesimulator/ShareTheRoute.app/Info.plist ShareTheRoute-Info.plist
+s312960264.438248
+e312960264.479950
+r1
+xProcessInfoPlistFile
+x/Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/build/Debug-iphonesimulator/ShareTheRoute.app/Info.plist
+xShareTheRoute-Info.plist
+lSLF07#2@32"Process ShareTheRoute-Info.plist312960264#312960264#0(0"0(0#0#83"/Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/ShareTheRoute-Info.plist8668617824#557"    cd /Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility ShareTheRoute-Info.plist -genpkginfo /Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/build/Debug-iphonesimulator/ShareTheRoute.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/build/Debug-iphonesimulator/ShareTheRoute.app/Info.plist0#
+
+CTouch /Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/build/Debug-iphonesimulator/ShareTheRoute.app
+s312960271.025106
+e312960271.039008
+r1
+xTouch
+x/Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/build/Debug-iphonesimulator/ShareTheRoute.app
+lSLF07#2@110"Touch /Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/build/Debug-iphonesimulator/ShareTheRoute.app312960271#312960271#0(0"0(0#0#0"8700463200#324"    cd /Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/sergiobuj/Documents/yprogramacion/iOS/ShareTheRoute/build/Debug-iphonesimulator/ShareTheRoute.app0#
+

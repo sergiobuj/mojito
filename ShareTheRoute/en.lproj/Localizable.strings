@@ -1,0 +1,10 @@
+/* 
+   Localizable.strings
+   ShareTheRoute
+
+   Created by Sergio Botero on 11/15/10.
+   Copyright 2010 Sergiobuj. All rights reserved.
+ */
+"share_button_title" = "Share The Route";
+"mail_subject" = "Follow my route!!";
+"mail_body" = "This is a link to where I am. Check it out! ";
