@@ -1,0 +1,3 @@
+$ heroku console Location.destroy_all
+
+Thank you teslin.
