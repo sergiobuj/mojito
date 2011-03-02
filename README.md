@@ -12,6 +12,4 @@ so they can get to you or simply know how's your trip going.
 * GetTheRoute - nib files
 
 
-
-
-
+Possible, start with share location basic
